@@ -1,20 +1,10 @@
 
 // *********************style de la barre de navigation avec toogle menu*********************************
 
-// function toggleMenu() {
-//     var menuBar = document.getElementById('menuBar');
-//     menuBar.classList.toggle('active');
-// }
-// function toggleMenu() {
-//     const menuBar = document.querySelector('#menuBar');
-//     const burger = document.querySelector('.burger');
-  
-//     menuBar.classList.toggle('active');
-//     burger.classList.toggle('active');
-//   }
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-// const navLink = document.querySelectorAll(".nav-link");
+
 
 const mobileMenu = () => {
   hamburger.classList.toggle("active")
@@ -27,7 +17,7 @@ const closeMenu = () => {
 }
 
 hamburger.addEventListener("click" , mobileMenu)
-navLink.forEach((l) => l.addEventListener("click",closeMenu))
+
 
 
 // **************************STYLE DU TITRE H1 AVEC SAISIE TEXTE AUTOMATIQUE**********************
