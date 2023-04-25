@@ -29,15 +29,18 @@ body {
 }
 
 .nav-menu {
-  width: 70%;
-  display: flex;
+  width: 100%;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 }
 
 .nav-item span {
-  color: white;
+  /* color: white; */
   margin-left: -30px;
+  color: #FFFFFF;
+
+  text-shadow: 0 0 10px #FFFFFF;
 }
 
 .nav-item a {
@@ -65,26 +68,24 @@ span.bar {
 }
 
 /* ************************media queries navbar**************************************** */
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 335px) {
   #menuBar {
     justify-content: inherit;
     position: fixed;
   }
 
   .nav-menu {
-    width: 200px;
     position: fixed;
-    left: -100%;
-    top: 5rem;
-    flex-direction: column;
-    border-radius: 10px;
-    text-align: center;
-    transition: all 0.5s;
-    z-index: 999;
+    left: -50%;
+    top: 2rem;
+    transition: all 0.3s;
+    /* display: flex; */
+    /* flex-direction: column; */
+
   }
 
   .nav-menu.active {
-    left: 0;
+    left: 10%;
     background-color: unset;
   }
 
@@ -113,16 +114,12 @@ span.bar {
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   #menuBar {
     justify-content: inherit;
-
   }
 
   .nav-menu {
-   
     position: fixed;
-   
-   
+    left: -35%;
     flex-direction: column;
-   
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
@@ -130,7 +127,7 @@ span.bar {
   }
 
   .nav-menu.active {
-    left: 0;
+    left: -100%;
   }
 
   .nav-item {
@@ -187,6 +184,7 @@ h1.name {
 .btn-cv {
   width: 160px;
   padding: 40px 0;
+
 }
 
 button#cv-btn {
@@ -208,11 +206,10 @@ button#cv-btn {
   display: inherit;
 }
 
-
 .about-me {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 30px;
 }
 
 .main-title {
@@ -280,7 +277,6 @@ img.moi {
   position: absolute;
   left: -15%;
   top: -30%;
-
 }
 
 .family-name {
@@ -307,8 +303,8 @@ article:hover {
 }
 
 .btn-cv {
-  width: 150px;
-  height: fit-content;
+  width: 160px;
+
 }
 
 #cv-btn {
@@ -323,12 +319,10 @@ article:hover {
   text-align: center;
   color: #fff;
   background-color: crimson;
-
 }
 
 #cv-btn:hover {
   transform: scale(1.04);
-
 }
 
 .left-about {
@@ -338,7 +332,6 @@ article:hover {
   justify-content: center;
   align-items: center;
   text-align: justify;
-
 }
 
 .left-about p {
@@ -372,12 +365,11 @@ hr {
   /* max-width: 1400px; */
   width: 100%;
   height: fit-content;
-
+  padding: 30px;
 }
 
 .skill {
   width: 100%;
-
   padding: 40px 0;
   font-size: 2rem;
   font-weight: 700;
@@ -388,7 +380,6 @@ hr {
 
 .container1 {
   width: 100%;
-
   position: relative;
   display: flex;
   justify-content: space-evenly;
@@ -399,8 +390,7 @@ hr {
 .container1 .card {
   position: relative;
   border-radius: 10px;
-  flex-basis: calc(33.33% - 90px); 
- 
+  flex-basis: calc(33.33% - 90px);
 }
 
 .container1 .card .icon {
@@ -513,6 +503,7 @@ hr {
   width: 100%;
   height: fit-content;
   margin: 0 auto;
+  padding: 30px;
 }
 
 h1#title-sec3 {
@@ -554,7 +545,7 @@ h1#title-sec3 {
 
 .card-img img.card-in {
   width: 100%;
-  max-height: 180px;
+  height: auto;
   transition: 0.3s;
 }
 
@@ -607,6 +598,10 @@ img.card-in {
 .row-limit-size.contact {
   max-width: 1400px;
 
+}
+
+.contact#contact-me {
+  padding: 30px;
 }
 
 .my-contact {
@@ -720,6 +715,7 @@ textarea#subject {
   h1.name {
     font-size: 1.2rem;
     padding: 40px 0;
+    margin-top: 50px;
   }
 
   .bg-img {
@@ -728,7 +724,7 @@ textarea#subject {
   }
 
   .container#home {
-    width: 400px;
+    width: 350px;
     height: auto;
 
   }
@@ -738,33 +734,28 @@ textarea#subject {
 
   .me {
     font-size: 1.2rem;
-
   }
 
   .right-about {
     display: none;
-
   }
 
   .left-about p {
-    width: 355px;
-    font-size: .9rem;
+    /* width: 355px; */
+    font-size: .7rem;
     padding: 10px;
-
+    position: inherit;
   }
 
   /* ***mes competences  */
   .skill {
-
     font-size: 1.2rem;
-
   }
 
   .competence#skills {
     max-width: 400px;
     width: 100%;
     height: fit-content;
-
   }
 
   /* ****portfolio */
@@ -773,7 +764,6 @@ textarea#subject {
     max-width: 400px;
     width: 100%;
     height: fit-content;
-
   }
 
   h1#title-sec3 {
@@ -792,7 +782,6 @@ textarea#subject {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-
     margin-bottom: 20px;
   }
 }
@@ -801,9 +790,6 @@ textarea#subject {
 
 @media screen and (min-width: 390px) and (max-width: 599px) {
 
-  /* #menuBar {
-    display: none;
-  } */
   h1.name {
     font-size: 1.3rem;
     padding: 40px 0;
@@ -817,6 +803,7 @@ textarea#subject {
     width: 400px;
     height: auto;
     padding: 40px;
+    background-image: none;
   }
 
   .me {
@@ -825,7 +812,6 @@ textarea#subject {
 
   .container-about {
     height: 300px;
-
   }
 
   .right-about {
