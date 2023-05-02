@@ -318,22 +318,22 @@
 
                     <form action="#" method="post">
 
-                        <label for="fname">Nom & Prénom</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+                        <label for="name">Nom & Prénom</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom et prénom" required>
 
                         <label for="sujet">Objet</label>
-                        <input type="text" id="objet" name="sujet" placeholder="L'objet de votre message">
+                        <input type="text" id="objet" name="objet" placeholder="L'objet de votre message">
 
-                        <label for="emailAddress">Email</label>
-                        <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Votre email" required>
 
 
                         <label for="subject">Message</label>
-                        <textarea id="subject" name="subject" placeholder="Votre message"></textarea>
+                        <textarea id="subject" name="subject" placeholder="Votre message" required></textarea>
 
-                        <a href="mailto:validress@outlook.fr" class="send-link"><button type="button"
-                                class="send-button">Envoyer</button></a>
-
+                        <!-- <a href="mailto:validress@outlook.fr" class="send-link"><button type="button"
+                                class="send-button">Envoyer</button></a> -->
+                        <input type="submit" name="submit" value="Envoyer">
                     </form>
                 </div>
             </div>

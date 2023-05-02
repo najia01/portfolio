@@ -496,7 +496,7 @@ img.card-in {
 }
 
 .see a {
-  width: 70px;
+  width: 100px;
   height: 30px;
   display: inline-block;
   padding: 0 15px;
@@ -562,7 +562,10 @@ textarea {
   margin-bottom: 20px;
 }
 
-.send-button {
+input[type="submit"]{
+  width: 100px;
+  font-size: 1rem;
+  font-weight: 500;
   background-color: crimson;
   color: white;
   padding: 10px 15px;
@@ -577,7 +580,7 @@ input[type="submit"]:hover {
 
 label {
   width: 100%;
-  font-size: .8rem;
+  font-size: 1rem;
   margin-right: 0px;
   margin-left: 0px;
 }
