@@ -2,21 +2,28 @@
 // *********************style de la barre de navigation avec toogle menu*********************************
 
 
+// const hamburger = document.querySelector(".hamburger");
+// const navMenu = document.querySelector(".nav-menu");
+
+
+// const mobileMenu = () => {
+//   hamburger.classList.toggle("active")
+//   navMenu.classList.toggle("active")
+// }
+
+// const closeMenu = () => {
+//   hamburger.classList.remove("active")
+//   navMenu.classList.remove("active")
+// }
+
+// hamburger.addEventListener("click" , mobileMenu)
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-
-const mobileMenu = () => {
-  hamburger.classList.toggle("active")
-  navMenu.classList.toggle("active")
-}
-
-const closeMenu = () => {
-  hamburger.classList.remove("active")
-  navMenu.classList.remove("active")
-}
-
-hamburger.addEventListener("click" , mobileMenu)
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
 
 
 
