@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon portfolio</title>
+    <link rel="shortcut icon" href="./img/portfolio.png" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -94,7 +95,7 @@
                     <div class="right-about">
 
                         <article>
-                            <figure><img class="moi" src="img/najia2.png"></figure>
+                            <img class="moi" src="img/najia.png" alt="Najia">
                             <h2 class="family-name">Najia LIGALI</h2>
                             <p class="work">Développeuse Web</p>
                         </article>
@@ -103,13 +104,9 @@
 
                     <div class="left-about">
 
-                        <p>Après plusieurs années d'études avec obtention d'une licence en histoire-géographie , ma
-                            passion pour l'informatique m'a conduite à faire une formation de deux ans avec l'obtention du diplôme de
-                            technicienne d'assistance informatique.
-                            Suite à mon dernier emploi, j'ai décidé d'entreprendre une reconversion professionnelle dans un domaine
-                            alliant créativité et informatique: le Développement Web.
-                            J'ai ainsi suivi une formation en tant que développeur web fullstack et applications mobiles
-                            dans un  centre de formation durant une année.
+                        <p> Après plusieurs années d'études avec l'obtention d'une licence en histoire-géographie , puis par la suite un diplôme de Technicienne d'Assistance Informatique, mon envie 
+                            d'évoluer m'a conduite à entreprendre une reconversion professionnelle dans un domaine alliant passion et créativité: le Développement Web.
+                            La réalisation d'une formation en développement web fullstack et applications mobiles dans le centre de formation Online FormaPro durant une année m'a permise de mener à terme mon projet professionnel.
                         </p>
 
                     </div>
@@ -131,7 +128,7 @@
         <!-- ************************************************************END SECTION ABOUT ********************************************************************* -->
 
         <!-- ************************************************************SECTION COMPETENCES *************************************************************** -->
-        
+
         <section class="competence" id="skills">
 
             <div class="row-limit-size competences">
@@ -154,7 +151,7 @@
                             <div class="content">
 
                                 <p> Langage FRONT-END <br>
-                                    Maîtrise de l'HTML 5</p>
+                                    Connaissance en HTML 5</p>
                             </div>
                         </div>
                     </div>
@@ -171,7 +168,7 @@
                         <div class="face face2">
                             <div class="content">
                                 <p> Langage FRONT-END <br>
-                                    Maîtrise du CSS3</p>
+                                    Connaissance en CSS3</p>
                             </div>
                         </div>
                     </div>
@@ -188,7 +185,7 @@
                         <div class="face face2">
                             <div class="content">
                                 <p> Langage FRONT-END <br>
-                                    le SASS</p>
+                                    Connaissance en SASS</p>
                             </div>
                         </div>
                     </div>
@@ -205,7 +202,7 @@
                         <div class="face face2">
                             <div class="content">
                                 <p> Langage FRONT-END <br>
-                                    Javascript</p>
+                                    Connaissance en Javascript</p>
 
                             </div>
                         </div>
@@ -225,7 +222,7 @@
                             <div class="content">
 
                                 <p> Langage BACK-END <br>
-                                    Apprentissage de PHP</p>
+                                    Connaissance en PHP</p>
                             </div>
                         </div>
                     </div>
@@ -244,7 +241,7 @@
                             <div class="content">
 
                                 <p> Langage BACK-END <br>
-                                    Apprentissage de Mysql</p>
+                                    Connaissance en Mysql</p>
                             </div>
                         </div>
                     </div>
@@ -269,7 +266,7 @@
                 <div class="blog-wrapper">
 
                     <div class="blog-card">
-                        <div class="card-img"><img class="card-in" src="./img/img-ims.png">
+                        <div class="card-img"><img class="card-in" src="./img/img-ims.png" alt="site one page ims-beauty">
                             <h3>IMS BEAUTY</h3>
                         </div>
 
@@ -277,12 +274,12 @@
                             <p>Premier site One Page d'un institut de beauté réalisé en formation .</p>
                         </div>
                         <div class="see">
-                            <a href="http://imsbeauty/index1.html">Voir</a>
+                            <a href="http://imsbeauty/index1.html" target="_blank">Voir</a>
                         </div>
                     </div>
 
                     <div class="blog-card">
-                        <div class="card-img"><img class="card-in" src="./img/img-jadoo.png">
+                        <div class="card-img"><img class="card-in" src="./img/img-jadoo.png" alt="site jadoo">
                             <h3>JADOO</h3>
                         </div>
 
@@ -291,12 +288,12 @@
                                 FormaPro afin de valider les modules HTML et CSS.</p>
                         </div>
                         <div class="see">
-                            <a href="http://jadoo/">Voir</a>
+                            <a href="http://jadoo/" target="_blank">Voir</a>
                         </div>
                     </div>
 
                     <div class="blog-card">
-                        <div class="card-img"><img class="card-in" src="./img/img-bouquine.png">
+                        <div class="card-img"><img class="card-in" src="./img/img-bouquine.png" alt="site de bibliothèque bouquine">
                             <h3>BOUQUINE</h3>
                         </div>
 
@@ -305,7 +302,7 @@
                                 réalisation du front-end user.</p>
                         </div>
                         <div class="see">
-                            <a href="http://bouquine/front/accueil.php">Voir</a>
+                            <a href="http://bouquine/front/accueil.php" target="_blank">Voir</a>
                         </div>
                     </div>
 
@@ -396,15 +393,15 @@
             <h3 class="footer-title">Port<span class="color">folio</span></h3>
 
             <div class="links">
-                <a href="https://github.com/najia01?tab=repositories">
+                <a href="https://github.com/najia01?tab=repositories" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/login/fr?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin">
+                <a href="https://www.linkedin.com/login/fr?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
         </div>
-        
+
         <div class="copyright">
             <p id="copy">Copyright&copy;2023 Ligali Najia </p>
         </div>
