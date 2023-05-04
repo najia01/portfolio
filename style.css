@@ -170,6 +170,7 @@ button#cv-btn {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
 
@@ -320,6 +321,7 @@ hr {
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
@@ -475,6 +477,7 @@ h1#title-sec3 {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
 
@@ -583,6 +586,7 @@ img.card-in {
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
@@ -700,6 +704,7 @@ textarea#subject {
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 6s infinite;
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
