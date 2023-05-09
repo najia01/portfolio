@@ -12,6 +12,7 @@ body {
   background-color: #100304;
   margin: auto 0;
   color: #fff;
+  scroll-behavior: smooth;
 }
 
 .row-limit-size {
@@ -23,6 +24,7 @@ body {
 
 #menuBar {
   position: relative;
+  position: fixed;
 }
 
 .nav-menu {
@@ -30,18 +32,20 @@ body {
   position: fixed;
   left: 25%;
   transition: 0.5s;
-  z-index: 9999;
+ z-index: 99999;
 
 }
 
 .nav-menu.active {
   display: block;
   margin-top: 10px;
+  
 }
 
 .nav-item {
   display: inline-block;
   padding: 10px 10px 10px 10px;
+ 
 }
 
 .hamburger {
@@ -71,6 +75,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
+  
 }
 
 .nav-item a:hover {
@@ -273,7 +278,6 @@ article:hover {
 
 .left-about p {
   max-width: 600px;
-
   font-size: 1.3rem;
 }
 
@@ -325,7 +329,6 @@ hr {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
-
 
 }
 
@@ -405,6 +408,66 @@ i {
   transition: 0.5s;
 }
 
+.container1 .card .face.face1 .content .icons {
+  height: 80px;
+
+}
+
+.icons {
+  /* position: absolute; */
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.icons {
+  opacity: 0;
+  /* rend les images transparentes au départ */
+  animation: fade-in 1s ease-in-out forwards;
+  /* défini l'animation pour chaque image */
+}
+
+/* défini l'animation pour chaque image */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    /* début de l'animation avec une opacité de 0 */
+  }
+
+  100% {
+    opacity: 1;
+    /* fin de l'animation avec une opacité de 1 */
+  }
+}
+
+/* délai d'apparition pour chaque image */
+.icons:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.icons:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.icons:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.icons:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.icons:nth-child(5) {
+  animation-delay: 1s;
+}
+
 .container1 .card:hover .face.face1 .content {
   opacity: 1;
 }
@@ -414,7 +477,7 @@ i {
 }
 
 .container1 .card .face.face2 {
-  height: 120px;
+  height: 150px;
   position: relative;
   background: #fff;
   display: flex;
@@ -776,7 +839,7 @@ textarea#subject {
     position: fixed;
     left: 10%;
     transition: 0.5s;
-    z-index: 9999;
+    /* z-index: 9999; */
   }
 
   .nav-menu.active {
@@ -816,7 +879,7 @@ textarea#subject {
   .nav-menu {
     position: fixed;
     transition: 0.5s;
-    z-index: 9999;
+    
     left: 15%;
   }
 
@@ -972,6 +1035,10 @@ textarea#subject {
   .container1 .card .face.face2 {
     width: 150px;
   }
+  .container1 .card .face.face1 .content .icons {
+    height: 35px;
+  
+  }
 
   /************************************************************ ****PORTFOLIO ***********************************************************************************/
 
@@ -1063,7 +1130,10 @@ textarea#subject {
   .container1 .card .face.face2 {
     width: 150px;
   }
-
+  .container1 .card .face.face1 .content .icons {
+    height: 40px;
+  
+  }
   h1#title-sec3 {
     font-size: 1.5rem;
   }

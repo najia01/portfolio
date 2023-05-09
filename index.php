@@ -104,7 +104,7 @@
 
                     <div class="left-about">
 
-                        <p> Après plusieurs années d'études avec l'obtention d'une licence en histoire-géographie , puis par la suite un diplôme de Technicienne d'Assistance Informatique, mon envie 
+                        <p> Après plusieurs années d'études avec l'obtention d'une licence en histoire-géographie , puis par la suite un diplôme de Technicienne d'Assistance Informatique, mon envie
                             d'évoluer m'a conduite à entreprendre une reconversion professionnelle dans un domaine alliant passion et créativité: le Développement Web.
                             La réalisation d'une formation en développement web fullstack et applications mobiles dans le centre de formation Online FormaPro durant une année m'a permise de mener à terme mon projet professionnel.
                         </p>
@@ -245,6 +245,33 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="card">
+
+                        <div class="face face1">
+
+                            <div class="content">
+                                <div class="icon">
+                                <img class="icons" src="./img/notion.png" alt="Notion">
+                                <img class="icons" src="./img/trello.png" alt="Trello">
+                                <img class="icons" src="./img/canva.png" alt="Canva">
+                                <img class="icons" src="./img/github.png" alt="Github">
+                                <img class="icons" src="./img/figma.png" alt="Figma">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+
+                                <p> Outils utilisés <br>
+                                    Notion <br>Figma<br>Github<br>Trello<br>Canva</p>
+                            </div>
+                        </div>
+                    </div>
+
+
 
                 </div>
             </div>
