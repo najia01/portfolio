@@ -351,11 +351,10 @@
 
                 <h3 id="form">Formulaire de contact</h3>
 
-                <div class="container2">
+                           <div class="container2">
 
                     <?php
 
-                    if (isset($_POST['submit'])) {
 
                         // on récupère les données du formulaire
 
