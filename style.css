@@ -32,20 +32,20 @@ body {
   position: fixed;
   left: 25%;
   transition: 0.5s;
- z-index: 99999;
+  z-index: 99999;
 
 }
 
 .nav-menu.active {
   display: block;
   margin-top: 10px;
-  
+
 }
 
 .nav-item {
   display: inline-block;
   padding: 10px 10px 10px 10px;
- 
+
 }
 
 .hamburger {
@@ -75,7 +75,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
-  
+
 }
 
 .nav-item a:hover {
@@ -627,11 +627,66 @@ img.card-in {
 /* *************************************************************SECTION CONTACT**************************************************************************** */
 
 
-.row-limit-size.contact {
+.row-limit-size.contact1 {
   max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact#contact-me {
+  padding: 30px;
+}
+.my-contact {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  padding: 30px;
+  background-image: linear-gradient(-225deg,
+      #fd1d1d 0%,
+      #833ab4 29%,
+      #fd1d1d 67%,
+      #fcb045 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
 }
 
-.contact#contact-me {
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}
+
+a.button-contact{
+  padding: 5px;
+  text-decoration: none;
+}
+
+.button-contact {
+  min-width: 160px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  background-color: crimson;
+}
+
+.button-contact:hover {
+  transform: scale(1.04);
+}
+
+
+/* .contact#contact-me {
   padding: 30px;
 }
 
@@ -711,7 +766,7 @@ label {
 
 textarea#subject {
   height: 150px;
-}
+} */
 
 /* ****************************************************************END CONTACT *******************************************************************************/
 
@@ -879,7 +934,7 @@ textarea#subject {
   .nav-menu {
     position: fixed;
     transition: 0.5s;
-    
+
     left: 15%;
   }
 
@@ -1035,9 +1090,10 @@ textarea#subject {
   .container1 .card .face.face2 {
     width: 150px;
   }
+
   .container1 .card .face.face1 .content .icons {
     height: 35px;
-  
+
   }
 
   /************************************************************ ****PORTFOLIO ***********************************************************************************/
@@ -1064,7 +1120,30 @@ textarea#subject {
     font-size: 1.2rem;
   }
 
-  input[type="text"],
+  .row-limit-size.contact1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/* Styles pour le bouton */
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+
+/* input[type="text"],
   input[type="email"],
   textarea {
     width: 280px;
@@ -1072,8 +1151,8 @@ textarea#subject {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 20px;
-  }
-}
+  } */
+
 
 /* **************************************************************MEDIA QUERIES  ***************************************************************************/
 
@@ -1130,10 +1209,12 @@ textarea#subject {
   .container1 .card .face.face2 {
     width: 150px;
   }
+
   .container1 .card .face.face1 .content .icons {
     height: 40px;
-  
+
   }
+
   h1#title-sec3 {
     font-size: 1.5rem;
   }
@@ -1207,4 +1288,5 @@ textarea#subject {
     text-align: center;
     cursor: pointer;
   }
+}
 }

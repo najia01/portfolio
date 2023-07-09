@@ -253,11 +253,11 @@
 
                             <div class="content">
                                 <div class="icon">
-                                <img class="icons" src="./img/notion.png" alt="Notion">
-                                <img class="icons" src="./img/trello.png" alt="Trello">
-                                <img class="icons" src="./img/canva.png" alt="Canva">
-                                <img class="icons" src="./img/github.png" alt="Github">
-                                <img class="icons" src="./img/figma.png" alt="Figma">
+                                    <img class="icons" src="./img/notion.png" alt="Notion">
+                                    <img class="icons" src="./img/trello.png" alt="Trello">
+                                    <img class="icons" src="./img/canva.png" alt="Canva">
+                                    <img class="icons" src="./img/github.png" alt="Github">
+                                    <img class="icons" src="./img/figma.png" alt="Figma">
 
                                 </div>
                             </div>
@@ -345,66 +345,11 @@
         <!-- **********************************************************SECTION CONTACT ************************************************************************* -->
 
         <section class="contact" id="contact-me">
-
             <h1 class="my-contact">Contact</h1>
-            <div class="row-limit-size contact">
-
-                <h3 id="form">Formulaire de contact</h3>
-
-                           <div class="container2">
-
-                    <?php
-
-
-                        // on récupère les données du formulaire
-
-                        $nom = $_POST['name'];
-                        $subject = $_POST['objet'];
-                        $email = $_POST['email'];
-                        $message = $_POST['message'];
-
-                        // notre email 
-
-                        $to = "validress@outlook.fr";
-
-                        // sujet du message
-
-                        $subject = "Message de contact depuis votre site web";
-
-                        // message 
-
-                        $body = "Nom: $nom\Subject: $subject\Email: $email\Message: $message";
-
-                        // envoi du mail
-
-                        if (mail($to, $subject, $body)) {
-                            echo "Votre message a bien été envoyé";
-                        } else {
-                            echo "Une erreur est survenue lors de l'envoi de votre message.";
-                        }
-                    }
-                    ?>
-
-                    <form action="#" method="post">
-
-                        <label for="name">Nom & Prénom</label>
-                        <input type="text" id="name" name="name" placeholder="Votre nom et prénom" required>
-
-                        <label for="sujet">Objet</label>
-                        <input type="text" id="objet" name="objet" placeholder="L'objet de votre message">
-
-                        <label for="email">Email</label>
-                        <input id="email" type="email" name="email" placeholder="Votre email" required>
-
-                        <label for="subject">Message</label>
-                        <textarea id="subject" name="message" placeholder="Votre message" required></textarea>
-
-                        <input type="submit" name="submit" value="Envoyer">
-
-                    </form>
-                </div>
+            <div class="row-limit-size contact1">
+                
+                <a href="https://tally.so/r/mBKW14" class="button-contact">Cliquez ici</a>  
             </div>
-
         </section>
 
     </main>
